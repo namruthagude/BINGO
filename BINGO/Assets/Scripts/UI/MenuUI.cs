@@ -55,4 +55,9 @@ public class MenuUI : MonoBehaviour
         }
         
     }
+
+    public void OnPlay()
+    {
+        LoadingScreen.Singleton.LoadScene(LoadingScreen.SCENE_GAME);
+    }
 }

@@ -86,3 +86,5 @@ GoogleService-Info.plist
 *.jks
 *.pdb
 *.cache
+*.vsidx
+BINGO/.vs/BINGO/FileContentIndex/208232a6-6537-4af7-90f1-d894af394b48.vsidx
