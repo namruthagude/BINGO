@@ -85,3 +85,4 @@ GoogleService-Info.plist
 *.keystore
 *.jks
 *.pdb
+*.cache

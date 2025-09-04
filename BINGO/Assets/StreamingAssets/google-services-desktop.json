@@ -12,7 +12,12 @@
           "package_name": "com.DefaultCompany.BINGO"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "652914484628-h8acnd85ja87s322vjrqpc6llksor2s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCbc697VlOS2fsdlGy2-wmPi1oR6DvHLAU"
@@ -20,7 +25,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652914484628-h8acnd85ja87s322vjrqpc6llksor2s4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
