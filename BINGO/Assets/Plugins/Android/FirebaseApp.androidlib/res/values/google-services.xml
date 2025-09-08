@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">652914484628</string>
+  <string name="google_storage_bucket" translatable="false">bingo-39910.firebasestorage.app</string>
+  <string name="project_id" translatable="false">bingo-39910</string>
+  <string name="google_api_key" translatable="false">AIzaSyCbc697VlOS2fsdlGy2-wmPi1oR6DvHLAU</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCbc697VlOS2fsdlGy2-wmPi1oR6DvHLAU</string>
+  <string name="google_app_id" translatable="false">1:652914484628:android:62d63650a55b24e4759b81</string>
+  <string name="default_web_client_id" translatable="false">652914484628-h8acnd85ja87s322vjrqpc6llksor2s4.apps.googleusercontent.com</string>
+</resources>
