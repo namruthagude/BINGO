@@ -23,4 +23,19 @@ public class GameOverUI : MonoBehaviour
     {
         gameResult.text = text;
     }
+
+    public void OnRestart()
+    {
+        LoadingScreen.Singleton.LoadScene(LoadingScreen.SCENE_GAME);
+    }
+
+    public void MainMenu()
+    {
+        LoadingScreen.Singleton.LoadScene(LoadingScreen.SCENE_MENU);
+    }
+
+    public void OnQuit()
+    {
+        Application.ExternalEval("location.reload();");
+    }
 }

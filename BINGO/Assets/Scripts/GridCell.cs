@@ -10,6 +10,8 @@ public class GridCell : MonoBehaviour
     private TMP_Text number;
     [SerializeField]
     private GameObject bingoCompletedGO;
+    [SerializeField]
+    private GameObject selectedNumberGO;
     public int row;
     public int column;
     public ParticleSystem clickParticles;
@@ -33,11 +35,7 @@ public class GridCell : MonoBehaviour
     {
 
         isStrikedOff = strikeOff;
-        if (isStrikedOff)
-        {
-            Image image = GetComponent<Image>();
-            image.color = Color.blue;
-        }
+        ShowSelectedNumber();
         anim.OnButtonClick();
     }
 
@@ -78,5 +76,10 @@ public class GridCell : MonoBehaviour
     public void ShowBingoCompleted()
     {
         bingoCompletedGO.SetActive(true);
+    }
+
+    public void ShowSelectedNumber()
+    {
+        selectedNumberGO.SetActive(true);
     }
 }

@@ -39,6 +39,8 @@ public class GridController : MonoBehaviour
     private int aiBingoCount = 0;
     [SerializeField]
     private List<int> availableNumbers  = new List<int>();
+    [SerializeField]
+    private Color[] BINGOColors;
     // Start is called before the first frame update
     void Start()
     {
@@ -379,7 +381,7 @@ public class GridController : MonoBehaviour
 
     private void UpdateTurn()
     {
-        gameUI.UpdateTurn(GameTurn.ToString());
+        gameUI.UpdateTurn(GameTurn);
     }
 
     private void SwitchTurn()

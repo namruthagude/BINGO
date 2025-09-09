@@ -17,8 +17,11 @@ public class GameUI : MonoBehaviour
     private List<Image> player1BingoLetters;
     [SerializeField]
     private List<Image> player2BingoLetters;
+
     [SerializeField]
-    private TMP_Text turn;
+    private Button button_yourTurn;
+    [SerializeField]
+    private Button button_oppTurn;
     [SerializeField]
     private TMP_Text selectedNumber;
     [SerializeField]
@@ -49,9 +52,13 @@ public class GameUI : MonoBehaviour
     private GameObject go_Settings;
     [SerializeField]
     private GameObject go_Tutorial;
+    [SerializeField]
+    private Color[] BINGOColors;
     // Start is called before the first frame update
     void Start()
     {
+        button_oppTurn.gameObject.SetActive(false);
+        button_yourTurn.gameObject.SetActive(false);
         ShowStart();
         RuntimeDBManager.instance.OnNoUserName += Player_OnNoUserName;
     }
@@ -77,9 +84,25 @@ public class GameUI : MonoBehaviour
         go_Settings.SetActive(false);
         go_Tutorial.SetActive(false);
     }
-    public void UpdateTurn(string value)
+    public void UpdateTurn(GridController.Turn gameTurn)
     {
-        this.turn.text = value;
+        if (RuntimeDBManager.instance.IsMultiplayer)
+        {
+
+        }
+        else
+        {
+            if(gameTurn == GridController.Turn.Player1)
+            {
+                button_yourTurn.gameObject.SetActive(true);
+                button_oppTurn.gameObject.SetActive(false);
+            }
+            else
+            {
+                button_yourTurn.gameObject.SetActive(false);
+                button_oppTurn.gameObject.SetActive(true);
+            }
+        }
     }
 
     public void Shake()
@@ -105,12 +128,25 @@ public class GameUI : MonoBehaviour
     public void UpdatePlayerBINGO(int i)
     {
         player1BingoLetters[i].GetComponent<BINGOAnim>().PlayAnimation();
-        //player1BingoLetters[i].color = Color.white;
+        BINGOColors[i].a = 1f;
+        TMP_Text text = player1BingoLetters[i].GetComponentInChildren<TMP_Text>();
+        if (text != null)
+        {
+            text.color = Color.white;
+        }
+        player1BingoLetters[i].color = BINGOColors[i];
     }
 
     public void UpdateAIBINGO(int i)
     {
-        player2BingoLetters[i].color = Color.white;
+        TMP_Text text = player2BingoLetters[i].GetComponentInChildren<TMP_Text>();
+        if (text != null)
+        {
+            text.color = Color.white;
+        }
+        BINGOColors[i].a = 1f;
+        player2BingoLetters[i].color = BINGOColors[i];
+        //player2BingoLetters[i].color = Color.white;
     }
 
     public void OnGameOver(string gameResult)
@@ -124,7 +160,7 @@ public class GameUI : MonoBehaviour
 
     public void StartGame()
     {
-        if (PlayerPrefs.HasKey(PlayerPrefsStrings.HASPLAYEDTUTORIAL))
+        /*if (PlayerPrefs.HasKey(PlayerPrefsStrings.HASPLAYEDTUTORIAL))
         {
             if(PlayerPrefs.GetInt(PlayerPrefsStrings.HASPLAYEDTUTORIAL) == 1)
             {
@@ -139,7 +175,10 @@ public class GameUI : MonoBehaviour
         else
         {
             ShowTutorial();
-        }
+        }*/
+
+        TurnOffAllPanels();
+        go_Game.SetActive(true);
     }
 
     public void ShowStart()
