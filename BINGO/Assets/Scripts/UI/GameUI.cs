@@ -1,5 +1,6 @@
 using Cinemachine;
 using DG.Tweening;
+using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -88,7 +89,32 @@ public class GameUI : MonoBehaviour
     {
         if (RuntimeDBManager.instance.IsMultiplayer)
         {
-
+            if (gameTurn == GridController.Turn.Player1)
+            {
+                if (PhotonNetwork.LocalPlayer.IsMasterClient)
+                {
+                    button_yourTurn.gameObject.SetActive(true);
+                    button_oppTurn.gameObject.SetActive(false);
+                }
+                else
+                {
+                    button_yourTurn.gameObject.SetActive(false);
+                    button_oppTurn.gameObject.SetActive(true);
+                }
+            }
+            else
+            {
+                if (!PhotonNetwork.LocalPlayer.IsMasterClient)
+                {
+                    button_yourTurn.gameObject.SetActive(true);
+                    button_oppTurn.gameObject.SetActive(false);
+                }
+                else
+                {
+                    button_yourTurn.gameObject.SetActive(false);
+                    button_oppTurn.gameObject.SetActive(true);
+                }
+            }
         }
         else
         {

@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "E:\\New Games\\BINGO\\BINGO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|e:\\new games\\bingo\\bingo\\assets\\scripts\\ui\\gameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|E:\\New Games\\BINGO\\BINGO\\assets\\scripts\\gridcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gridcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|e:\\new games\\bingo\\bingo\\assets\\scripts\\multiplayer\\multiplayergamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\multiplayer\\multiplayergamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|E:\\New Games\\BINGO\\BINGO\\assets\\scripts\\ui\\gameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\gameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|E:\\New Games\\BINGO\\BINGO\\assets\\scripts\\gridcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gridcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|e:\\new games\\bingo\\bingo\\assets\\scripts\\ui\\waitingroomui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\waitingroomui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|e:\\new games\\bingo\\bingo\\assets\\scripts\\loadingiconanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadingiconanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|E:\\New Games\\BINGO\\BINGO\\assets\\scripts\\managers\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|E:\\New Games\\BINGO\\BINGO\\assets\\ui animations\\tutorialbuttonuianim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,14 +75,6 @@
       "RelativeMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|solutionrelative:assets\\fortune spin wheel (lucky wheel)\\scripts\\fortunespinwheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|E:\\New Games\\BINGO\\BINGO\\assets\\scripts\\managers\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|E:\\New Games\\BINGO\\BINGO\\assets\\scripts\\loadingiconanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadingiconanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|E:\\New Games\\BINGO\\BINGO\\assets\\scripts\\strings\\playerprefsstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF02E84B-3CC4-8232-E9C4-C14FA19F2A98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\strings\\playerprefsstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -110,8 +118,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MultiPlayerGameManager.cs",
+              "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\MultiPlayer\\MultiPlayerGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MultiPlayer\\MultiPlayerGameManager.cs",
+              "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\MultiPlayer\\MultiPlayerGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MultiPlayer\\MultiPlayerGameManager.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T10:21:10.01Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
@@ -126,67 +147,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginUI.cs",
-              "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\LoginUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\LoginUI.cs",
-              "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\LoginUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\LoginUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "WaitingRoomUI.cs",
+              "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\WaitingRoomUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\WaitingRoomUI.cs",
+              "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\WaitingRoomUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\WaitingRoomUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:44:06.717Z"
+              "WhenOpened": "2025-09-25T09:34:46.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RuntimeDBManager.cs",
-              "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Managers\\RuntimeDBManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\RuntimeDBManager.cs",
-              "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Managers\\RuntimeDBManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\RuntimeDBManager.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:39:21.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "WalletUI.cs",
-              "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\WalletUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\WalletUI.cs",
-              "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\WalletUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\WalletUI.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBQwBoAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T18:38:40.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "WalletManager.cs",
-              "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Managers\\WalletManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\WalletManager.cs",
-              "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Managers\\WalletManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\WalletManager.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T18:19:27.904Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GridController.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\GridController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GridController.cs",
               "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\GridController.cs",
               "RelativeToolTip": "Assets\\Scripts\\GridController.cs",
-              "ViewState": "AgIAAEgBAAAAAAAAAAAswH0BAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAAAPwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T13:01:12.362Z"
+              "WhenOpened": "2025-04-06T13:01:12.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "GameOverUI.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\GameOverUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\GameOverUI.cs",
@@ -198,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "TutorialButtonUIAnim.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\UI Animations\\TutorialButtonUIAnim.cs",
               "RelativeDocumentMoniker": "Assets\\UI Animations\\TutorialButtonUIAnim.cs",
@@ -210,20 +197,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GameUI.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\GameUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\GameUI.cs",
               "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\GameUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\GameUI.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAUwGUAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAkwKUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T12:56:33.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "LoginManager.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Managers\\LoginManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\LoginManager.cs",
@@ -235,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "GridCell.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\GridCell.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GridCell.cs",
@@ -247,19 +234,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 4,
               "Title": "LoadingIconAnim.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\LoadingIconAnim.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LoadingIconAnim.cs",
               "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\LoadingIconAnim.cs",
               "RelativeToolTip": "Assets\\Scripts\\LoadingIconAnim.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T02:35:26.669Z"
+              "WhenOpened": "2025-08-23T02:35:26.669Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "LoadingScreen.cs",
+              "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Managers\\LoadingScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\LoadingScreen.cs",
+              "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Managers\\LoadingScreen.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\LoadingScreen.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwBwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T12:56:28.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WalletManager.cs",
+              "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Managers\\WalletManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\WalletManager.cs",
+              "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Managers\\WalletManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\WalletManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T18:19:27.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WalletUI.cs",
+              "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\WalletUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\WalletUI.cs",
+              "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\WalletUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\WalletUI.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBQwBoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T18:38:40.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RuntimeDBManager.cs",
+              "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Managers\\RuntimeDBManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\RuntimeDBManager.cs",
+              "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Managers\\RuntimeDBManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\RuntimeDBManager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T12:39:21.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginUI.cs",
+              "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\LoginUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\LoginUI.cs",
+              "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\LoginUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\LoginUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T12:44:06.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "FirebaseInit.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Firebase\\FirebaseInit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Firebase\\FirebaseInit.cs",
@@ -270,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "BurstPlatformAotSettings.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Library\\PackageCache\\com.unity.burst@f7a407abf4d5\\Editor\\BurstPlatformAotSettings.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.burst@f7a407abf4d5\\Editor\\BurstPlatformAotSettings.cs",
@@ -282,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "EconomySO.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\ScriptableObjects\\Scripts\\EconomySO.cs",
               "RelativeDocumentMoniker": "Assets\\ScriptableObjects\\Scripts\\EconomySO.cs",
@@ -294,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "MenuUI.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\MenuUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MenuUI.cs",
@@ -306,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "RecommenderSystem.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546\\Editor\\Recommendations\\RecommenderSystem.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546\\Editor\\Recommendations\\RecommenderSystem.cs",
@@ -318,19 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoadingScreen.cs",
-              "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Managers\\LoadingScreen.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\LoadingScreen.cs",
-              "ToolTip": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Managers\\LoadingScreen.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\LoadingScreen.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:56:28.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "FortuneSpinWheel.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Fortune Spin Wheel (Lucky Wheel)\\Scripts\\FortuneSpinWheel.cs",
               "RelativeDocumentMoniker": "Assets\\Fortune Spin Wheel (Lucky Wheel)\\Scripts\\FortuneSpinWheel.cs",
@@ -342,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "AdManager.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Managers\\AdManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\AdManager.cs",
@@ -354,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "BINGOAnim.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\UI Animations\\BINGOAnim.cs",
               "RelativeDocumentMoniker": "Assets\\UI Animations\\BINGOAnim.cs",
@@ -366,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "PlayerPrefsStrings.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Strings\\PlayerPrefsStrings.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Strings\\PlayerPrefsStrings.cs",
@@ -378,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "CameraShake.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\CameraShake.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraShake.cs",
@@ -390,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\Audio\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Audio\\AudioManager.cs",
@@ -402,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "SettingsUI.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\SettingsUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\SettingsUI.cs",
@@ -414,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Tutorial UI.cs",
               "DocumentMoniker": "E:\\New Games\\BINGO\\BINGO\\Assets\\Scripts\\UI\\Tutorial UI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Tutorial UI.cs",

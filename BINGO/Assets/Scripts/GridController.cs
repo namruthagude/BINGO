@@ -57,6 +57,7 @@ public class GridController : MonoBehaviour
             {
                 playerTeam = Team.Team2;
             }
+            UpdateTurn();
         }
         else
         {
@@ -168,8 +169,8 @@ public class GridController : MonoBehaviour
                 AudioManager.Singleton.PlayOneShotSFX(AudioManager.Singleton.gameButtonNumbersClip[val - 1]);
                 playerMatrix[row, col].isStrikedOff = true;
                 CheckForPlayerBingo(row, col);
-                SwitchTurn();
                 StrikeOffMultiplayer(row, col, val);
+                SwitchTurn();
             }
             
 
@@ -227,7 +228,7 @@ public class GridController : MonoBehaviour
         CheckNumberToStrikeOffInPlayer(val);
    
 
-        CheckForPlayerBingo(row, col);
+        //CheckForPlayerBingo(row, col);
         //CheckNumberToStrikeOffInAI(playerMatrix[row, col].value);
         SwitchTurn();
     }
@@ -290,6 +291,7 @@ public class GridController : MonoBehaviour
             AddingPlayerBingoLetters();
             if (RuntimeDBManager.instance.IsMultiplayer)
             {
+                Debug.Log("Calling RPC");
                 MultiPlayerGameManager.instance.AddingOtherPlayerBingoLetters();
             }
         }
@@ -312,6 +314,7 @@ public class GridController : MonoBehaviour
             AddingPlayerBingoLetters();
             if (RuntimeDBManager.instance.IsMultiplayer)
             {
+                Debug.Log("Calling RPC");
                 MultiPlayerGameManager.instance.AddingOtherPlayerBingoLetters();
             }
         }
@@ -320,6 +323,7 @@ public class GridController : MonoBehaviour
 
     private void AddingPlayerBingoLetters()
     {
+        Debug.Log("Adding Player BINGo Letters");
         cameraShake.Shake(25f, 0.5f);
         gameUI.UpdatePlayerBINGO(playerBingoCount);
         playerBingoCount++;
@@ -370,6 +374,7 @@ public class GridController : MonoBehaviour
 
     public void AddingAIBingoLetters()
     {
+        Debug.Log("Adding OPP Player BINGo Letters");
         gameUI.UpdateAIBINGO(aiBingoCount);
         aiBingoCount++;
         if (aiBingoCount == 5)
